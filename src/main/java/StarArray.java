@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-public class StartArray {
+public class StarArray {
 
     public int solution(int[] a) {
         if (a.length < 2) return 0;
@@ -25,11 +23,11 @@ public class StartArray {
                 {5,2,3,3,5,3},
                 {0,3,3,0,7,2,0,2,2,0}};
         int answers[] = {0,4,8};
-        StartArray startArray = new StartArray();
+        StarArray starArray = new StarArray();
         int pos = 0;
         for (int [] array:arrays) {
             System.out.println(String.valueOf(answers[pos++]) + ':'
-                    + String.valueOf(startArray.solution(array)));
+                    + String.valueOf(starArray.solution(array)));
         }
     }
 }
